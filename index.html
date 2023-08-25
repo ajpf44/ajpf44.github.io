@@ -5,5 +5,17 @@
     <p>
         Bot <a href="https://discord.com/api/oauth2/authorize?client_id=849272868234985472&permissions=8&scope=bot%20applications.commands"> Irmã do Bareva</a>
     </p>
+    <p id='study'></p>
+    <script>
+        const pStudy = document.querySelector('#study');
+        const date = new Date();
+        const d = date.getDay();
+        
+        if(d > 5) pStudy.innerHTML = 'DIA DE MOLEZINHA';
+        else if(d%2) 
+            pStudy.innerHTML = `Dia de estudo: Contrução páginas da web e introdução a informática`;
+        else if(!(d%2))
+             pStudy.innerHTML = `Dia de estudo: Algoritmo e inglês`
+    </script>
 </body>
 </html>
