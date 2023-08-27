@@ -11,7 +11,7 @@
         const date = new Date();
         const d = date.getDay();
         
-        if(d > 5) pStudy.innerHTML = 'DIA DE MOLEZINHA';
+        if(d == 6 || d== 0) pStudy.innerHTML = 'DIA DE MOLEZINHA';
         else if(d%2) 
             pStudy.innerHTML = `Dia de estudo: Contrução páginas da web e introdução a informática`;
         else if(!(d%2))
