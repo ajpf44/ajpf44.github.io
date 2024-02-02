@@ -27,6 +27,14 @@ article#quem-sou-eu{
 #quem-sou-eu a{
     color: var(--color3);
 }
+
+#quem-sou-eu img{
+    width: 100%;
+}
+#quem-sou-eu .section-img-profile{
+    width: 200px;
+    height: 200px;
+}
 .first-article-container{
     display: flex;
     justify-content: space-between;
