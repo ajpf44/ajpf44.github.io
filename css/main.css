@@ -113,6 +113,7 @@ article#quem-sou-eu{
 #article-contact .social-media-container{
     display: flex;
     flex-direction: row;
+
     gap: 4rem;
 }
 .social-media-container a{
