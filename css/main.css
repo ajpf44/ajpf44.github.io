@@ -1,0 +1,87 @@
+:root{
+    --color1: #0D1B2A;
+    --color2: #1B263B;
+    --color3: #415A77;
+    --color4: #778DA9;
+    --color5: #E0E1DD;
+}
+
+main{
+    background-image: url(../assets/bulding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+article#quem-sou-eu{
+    background-color: #e0e1dddc;
+
+}
+.first-article-container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 50rem/*800px*/;
+    min-height: 25rem/*400px*/;
+    margin: auto;
+}
+#quem-sou-eu .description-sec{
+    max-width: 30rem; /*450px*/
+    text-align: justify;
+}
+.description-sec h2{
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+
+    border-width: 0px 0px 3px 3px;
+    border-style: solid;
+    border-color: var(--color2);
+    border-radius: 0 0 0 0.3rem;
+}
+
+#article-project{
+    background-image: linear-gradient(135deg, var(--color3), var(--color2), var(--color1));
+    background-color: var(--color1);
+    color: white;
+
+    padding: 4rem 0;
+}
+#article-project h2{
+    text-align: center;
+}
+#article-project .projects-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem 0;
+    flex-grow: 1;
+    flex-flow: row wrap;
+    
+    max-width: 1100px;
+
+    margin: auto;
+    padding: 4rem 0;
+}
+.projects-container .project-gif-container{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+
+    border: 0.2rem solid var(--color4);
+    border-radius: 0.3rem;
+}
+.projects-container img{
+    max-width: 100%;
+}
+.projects-container p{
+    text-align: center;
+    padding-top: 1rem;
+}
+#article-project p{
+    max-width: 1100px;
+    margin: auto;
+}
+

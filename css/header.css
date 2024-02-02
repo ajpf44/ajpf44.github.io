@@ -1,0 +1,51 @@
+:root{
+    --color1: #0D1B2A;
+    --color2: #1B263B;
+    --color3: #415A77;
+    --color4: #778DA9;
+    --color5: #E0E1DD;
+    --color6: #BBE5ED
+}
+.top-header *{
+    color: white;
+}
+.top-header {
+    background-color: black;
+
+    padding: 15px 30px;
+}
+.top-header .logo{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+.top-header nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.top-header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.top-header a{
+    /* background-color: red; */
+    
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 2px solid white;
+
+    text-decoration: none;
+    color: white;
+}
+
+.top-header a:hover{
+    border: 2px solid var(--color4);
+    color: #92add1;
+}
+
+
