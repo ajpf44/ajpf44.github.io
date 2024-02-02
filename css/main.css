@@ -4,6 +4,8 @@
     --color3: #415A77;
     --color4: #778DA9;
     --color5: #E0E1DD;
+    --color6: #4BB3FD;
+    --max-width: 1200px;
 }
 
 main{
@@ -13,10 +15,17 @@ main{
     background-position: center center;
     background-attachment: fixed;
 }
+main a::after{
+    text-decoration: none;
+    content: ' 🔗';
+}
 
 article#quem-sou-eu{
     background-color: #e0e1dddc;
 
+}
+#quem-sou-eu a{
+    color: var(--color3);
 }
 .first-article-container{
     display: flex;
@@ -25,7 +34,7 @@ article#quem-sou-eu{
     align-items: center;
 
     max-width: 50rem/*800px*/;
-    min-height: 25rem/*400px*/;
+    min-height: 35rem/*400px*/;
     margin: auto;
 }
 #quem-sou-eu .description-sec{
@@ -36,7 +45,7 @@ article#quem-sou-eu{
     padding-left: 1rem;
     margin-bottom: 1rem;
 
-    border-width: 0px 0px 3px 3px;
+    border-width: 0px 0px 0.2rem 0.2rem;
     border-style: solid;
     border-color: var(--color2);
     border-radius: 0 0 0 0.3rem;
@@ -47,7 +56,10 @@ article#quem-sou-eu{
     background-color: var(--color1);
     color: white;
 
-    padding: 4rem 0;
+    padding: 5rem 0;
+}
+#article-project a{
+    color: var(--color6);
 }
 #article-project h2{
     text-align: center;
@@ -60,14 +72,14 @@ article#quem-sou-eu{
     flex-grow: 1;
     flex-flow: row wrap;
     
-    max-width: 1100px;
+    max-width: var(--max-width);
 
     margin: auto;
     padding: 4rem 0;
 }
 .projects-container .project-gif-container{
-    width: 320px;
-    height: 320px;
+    width: 18rem/*320px*/;
+    height: 18rem/*320px*/;
     margin: auto;
 
     border: 0.2rem solid var(--color4);
@@ -81,7 +93,50 @@ article#quem-sou-eu{
     padding-top: 1rem;
 }
 #article-project p{
-    max-width: 1100px;
+    max-width: var(--max-width);
     margin: auto;
 }
 
+#article-contact-background{
+    background-color: #778DA9;
+}
+#article-contact{
+    max-width: var(--max-width);
+    min-height: 10rem;
+    margin: auto;
+    padding: 4rem;
+}
+#article-contact h2{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+#article-contact .social-media-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.social-media-container a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 15rem;
+    padding-bottom: 1rem;
+    
+    color: var(--color1);
+}
+.social-media-container a:hover{
+    border-bottom: 0.3rem solid black;
+    margin-bottom: -0.3rem;
+}
+#article-contact .icons-container{
+    width: 3rem;
+    /* padding: 0.1rem; */
+    padding: 0.3rem;
+    border: 0.2rem solid black;
+    /* border-radius: 0.3rem; */
+    border-radius: 50%;
+}
+
+.icons-container img{
+    width: 100%;
+}
