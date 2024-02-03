@@ -48,4 +48,18 @@
     color: #92add1;
 }
 
+@media (max-width: 1000px){
+    .top-header nav *{
+        display: none;
+    }
 
+    .top-header{
+        min-height: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-header .logo{
+        position: static;
+    }
+}

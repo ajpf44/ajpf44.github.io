@@ -31,13 +31,22 @@ article#quem-sou-eu{
 #quem-sou-eu img{
     width: 100%;
 }
+@media (max-width: 1000px){
+    #quem-sou-eu img{
+        display: none;
+    }
+
+    .first-article-container{
+        justify-content: center;
+        padding: 1.5rem;
+    }
+}
 #quem-sou-eu .section-img-profile{
     width: 200px;
     height: 200px;
 }
 .first-article-container{
     display: flex;
-    justify-content: space-between;
     justify-content: space-between;
     align-items: center;
 
@@ -85,6 +94,14 @@ article#quem-sou-eu{
     margin: auto;
     padding: 4rem 0;
 }
+@media (max-width: 1000px){
+    #article-project .projects-container{
+        justify-content: center;
+        flex-flow: column nowrap;
+    }
+}
+
+
 .projects-container .project-gif-container{
     width: 18rem/*320px*/;
     height: 18rem/*320px*/;
@@ -124,6 +141,13 @@ article#quem-sou-eu{
 
     gap: 4rem;
 }
+
+@media (max-width: 1000px){
+    #article-contact .social-media-container{
+        flex-direction: column;
+    }
+}
+
 .social-media-container a{
     display: flex;
     align-items: center;
