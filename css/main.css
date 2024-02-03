@@ -32,12 +32,15 @@ article#quem-sou-eu{
     width: 100%;
 }
 @media (max-width: 1000px){
-    #quem-sou-eu img{
+    #quem-sou-eu{
+        display: flex;
+        justify-content: center;
+    }
+    #quem-sou-eu .section-img-profile{
         display: none;
     }
 
     .first-article-container{
-        justify-content: center;
         padding: 1.5rem;
     }
 }
