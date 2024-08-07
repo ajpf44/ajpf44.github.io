@@ -1,0 +1,8 @@
+20240806
+GNU/Linux e suas distribuições
+	Faz cerca de dois anos que passei a utilizar GNU/Linux como meu principal SO (Sistema Operacional), os motivos para a mudança do Windows vão ser exploradas mais para frente nesse post. Nesse trajeto, passei pro diversas distribuições, o famoso Distro Hopping, até me estabilizar no Debian, que estou a cerca de 6 meses. Nesse post vou abordar os principais aspectos dessa mudança, as dificuldades e meu parecer sobre os cenários dos SO.
+	Primeiros presisamos esclarecer os seguintes termos:
+	- O que é um Sistema Operacional?
+	- O que é o GNU/Linux?
+		Acredito que todos
+	- O que é uma distribuição Linux?
