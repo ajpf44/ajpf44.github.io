@@ -7,13 +7,17 @@ body,
 .max-container {
     display: flex;
     justify-content: center;
+    max-width: 1920px;
     /* background-color: lightblue; */
+    max-height: 1080px;
 }
 
 header {
     /* background-color: rgba(176, 196, 222, 0.496); */
     background-color: cornsilk;
-    height: calc(100vh - 2rem); /*-2rem for the padding*/
+    max-height: calc(1080px - 2rem);
+    height: calc(100% - 2rem);
+
     width: 15rem;
     padding: 1rem 1.5rem;
 
@@ -25,7 +29,7 @@ header {
     flex-direction: column;
     gap: 2rem;
 
-    border-right: 0.2rem solid lightgray;
+    box-shadow:0px 0px 1px black;
 }
 
 header .ul-index-nav {
@@ -62,6 +66,7 @@ header .dark-mode-button{
     font-size: large;
     padding: 0.3rem;
     cursor: pointer;
+    background-color: white;
 }
 
 iframe {

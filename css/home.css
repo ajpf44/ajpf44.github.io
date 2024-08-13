@@ -23,17 +23,25 @@ main{
     gap: 1rem;
     overflow-x: scroll;
     overflow-y: hidden;
+    padding: 1rem;
 }
 
 .blog-post {
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     padding: 0rem 1rem;
+    box-shadow: 1px 1px 2px black;
 
     min-width: 15rem;
-
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
     border-radius: 2px;
+    cursor: pointer;
 }
 
+.blog-post:hover{
+    box-shadow: 1px 1px 4px black;
+}
 .buttons-push {
     display: flex;
     justify-content: center;

@@ -12,7 +12,6 @@ main{
     gap: 2rem 2rem;
 }
 .projects-container > div {
-    border: 0.2px solid black;
     border-radius: 2px;
     padding: 1rem;
 
@@ -21,7 +20,16 @@ main{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    
+    box-shadow: 1px 1px 2px rgb(47, 37, 37);
+
+    cursor: pointer;
 }
+
+.projects-container > div:hover{
+    box-shadow: 1px 1px 4px rgb(47, 37, 37);
+}
+
 .projects-container img {
     width: 18rem;
     height: 18rem;
