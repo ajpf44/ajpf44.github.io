@@ -53,4 +53,15 @@ main{
     cursor: pointer;
 }
 
+.article-dev-work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-dev-work >section {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 
