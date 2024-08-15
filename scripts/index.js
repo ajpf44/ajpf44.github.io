@@ -70,8 +70,8 @@ function handle_day_phrases() {
     const random_phrases = [
         "Que a força esteja com você!",
         "O bug nunca será maior que a espada!",
-        "Eu me caguei...",
         "Eu me borrei...",
+        "Simplicidade ao invés de complexidade"
     ];
 
     const random_phrase_element = document.getElementById("random-phrase");

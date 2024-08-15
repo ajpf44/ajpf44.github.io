@@ -9,6 +9,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    max-width: 800px;
 }
 
 .section-title{
@@ -55,7 +57,7 @@ main{
 
 .article-dev-work{
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
 }
 
 .article-dev-work >section {
@@ -63,5 +65,10 @@ main{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+figcaption{
+    font-size: small;
+    margin-left: 1.5rem;
 }
 
