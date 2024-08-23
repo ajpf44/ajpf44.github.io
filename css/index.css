@@ -5,16 +5,13 @@ body,
 }
 
 .max-container {
-    display: flex;
-    justify-content: center;
     max-width: 1920px;
-    /* background-color: lightblue; */
     max-height: 1080px;
 }
 
 header {
-    /* background-color: rgba(176, 196, 222, 0.496); */
-    background-color: cornsilk;
+    background-color: cornsilk; 
+    
     max-height: calc(1080px - 2rem);
     height: calc(100% - 2rem);
 
@@ -70,10 +67,10 @@ header .dark-mode-button{
 }
 
 iframe {
-    width: 100%;
     height: 100vh;
+    width: calc(100% - 20rem);
 
-    margin-left: 20rem;
+    padding-left: 19rem;
 }
 
 .nav-active {
