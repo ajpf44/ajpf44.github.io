@@ -8,7 +8,7 @@ function handle_nav() {
     const nav_dashboard = document.getElementById("nav-dashboard");
     const nav_contact = document.getElementById("nav-contact");
     const iframe = document.getElementsByTagName("iframe")[0];
-    let nav_active = nav_home;
+    let nav_active = document.getElementsByClassName("nav-active")[0];
 
     nav_home.addEventListener("click", () => {
         nav_active.classList.remove("nav-active");
