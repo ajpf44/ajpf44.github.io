@@ -1,11 +1,12 @@
-handles_dark_mode();
-handle_day_phrases();
+// handles_dark_mode();
+// handle_day_phrases();
 handle_nav();
 
 function handle_nav() {
     const nav_home = document.getElementById("nav-home");
     const nav_project = document.getElementById("nav-project");
-    const nav_blog = document.getElementById("nav-blog");
+    const nav_dashboard = document.getElementById("nav-dashboard");
+    const nav_contact = document.getElementById("nav-contact");
     const iframe = document.getElementsByTagName("iframe")[0];
     let nav_active = nav_home;
 
@@ -25,14 +26,22 @@ function handle_nav() {
         console.log("Showing nav_project");
         iframe.src = "./pages/project.html";
     });
-    nav_blog.addEventListener("click", () => {
+    nav_contact.addEventListener("click", ()=>{
         nav_active.classList.remove("nav-active");
-        nav_active = nav_blog;
-        nav_blog.classList.add("nav-active");
+        nav_active = nav_contact;
+        nav_contact.classList.add("nav-active");
 
-        iframe.src = "./pages/blog.html";
-        console.log("Showing nav_blog");
-    });
+        iframe.src = "./pages/contact.html";
+        console.log("showing nav_contact");
+    })
+    nav_dashboard.addEventListener("click",  ()=>{
+        nav_active.classList.remove("nav-active");
+        nav_active = nav_dashboard;
+        nav_dashboard.classList.add("nav-active");
+
+        iframe.src = "./pages/dashboard.html";
+        console.log("showing nav_dashboard");
+    })
 }
 
 function handles_dark_mode() {
