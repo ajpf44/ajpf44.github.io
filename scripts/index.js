@@ -10,6 +10,8 @@ function handle_nav() {
     const iframe = document.getElementsByTagName("iframe")[0];
     let nav_active = document.getElementsByClassName("nav-active")[0];
 
+    nav_dashboard.style.display = "none";
+
     nav_about.addEventListener("click", () => {
         nav_active.classList.remove("nav-active");
         nav_active = nav_about;
