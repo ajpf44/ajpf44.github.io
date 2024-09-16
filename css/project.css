@@ -13,6 +13,7 @@ main{
 .projects-container a {
     color: inherit;
     text-decoration: inherit;
+    font-weight: normal;
 }
 .projects-container  .project-div {
     border-radius: 2px;

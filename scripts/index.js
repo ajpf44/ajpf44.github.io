@@ -3,20 +3,20 @@
 handle_nav();
 
 function handle_nav() {
-    const nav_home = document.getElementById("nav-home");
+    const nav_about = document.getElementById("nav-home");
     const nav_project = document.getElementById("nav-project");
     const nav_dashboard = document.getElementById("nav-dashboard");
     const nav_contact = document.getElementById("nav-contact");
     const iframe = document.getElementsByTagName("iframe")[0];
     let nav_active = document.getElementsByClassName("nav-active")[0];
 
-    nav_home.addEventListener("click", () => {
+    nav_about.addEventListener("click", () => {
         nav_active.classList.remove("nav-active");
-        nav_active = nav_home;
-        nav_home.classList.add("nav-active");
+        nav_active = nav_about;
+        nav_about.classList.add("nav-active");
 
-        console.log("Showing nav_home");
-        iframe.src = "./pages/home.html";
+        console.log("Showing nav_about");
+        iframe.src = "./pages/about.html";
     });
     nav_project.addEventListener("click", () => {
         nav_active.classList.remove("nav-active");
