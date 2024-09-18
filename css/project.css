@@ -43,3 +43,10 @@ main{
 
     border-radius: 0.2rem;
 }
+
+@media (max-width: 900px) {
+    .projects-container{
+        display: flex;
+        justify-content: center;
+    }
+}

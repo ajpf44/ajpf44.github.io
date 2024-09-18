@@ -53,3 +53,22 @@ figcaption{
     box-shadow: 1px 1px 2px rgb(47, 37, 37);
 }
 
+@media (max-width: 900px){
+    main{
+        padding: 1rem;
+    }
+    .article-dev-work{
+        flex-direction: column;
+    }
+    .article-description{
+        flex-direction: column-reverse;
+    }
+    .article-description p{
+        width: 100%;
+    }
+
+    .article-dev-work >section{
+        max-width: none;
+        width: 100%;
+    }
+}
