@@ -39,12 +39,12 @@ nav .ul-index-nav{
 }
 
 .ul-index-nav  li:hover{
-    color: darkslategray;
+    text-decoration: underline;    
 }
 
 iframe {
-    height: 100vh;
-    width: calc(100% - 20rem);
+    height: calc(100vh - 4rem);
+    width: calc(100% - 19rem);
 }
 
 .nav-active {
