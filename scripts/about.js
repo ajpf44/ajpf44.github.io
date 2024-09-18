@@ -1,6 +1,6 @@
-
-
 create_asci_running_animation();
+
+const test_button = document.getElementById("test-button");
 
 const role_element = document.getElementById("role-animation");
 const roles = [

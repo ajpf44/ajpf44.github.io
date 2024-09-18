@@ -9,10 +9,11 @@ body,
     max-height: 1080px;
 
     display: flex;
-    padding: 4rem;
-    gap: 3rem;
-
+    justify-content: center;
     margin: auto;
+    padding-top: 4rem ;
+    padding-left: 4rem ;
+    gap: 3rem;
 }
 
 header {
