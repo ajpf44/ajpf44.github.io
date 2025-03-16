@@ -1,0 +1,58 @@
+:root {
+	--max-width: 1080px;
+	--color: #0077b5;
+	--color-bright: #00b6ff;
+}
+
+div.main-container {
+	max-width: var(--max-width);
+	
+	padding-block: 4rem;
+	padding-bottom: 20vh;
+	padding-inline: 1.2rem;
+
+	margin: auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+}
+section.info-container {
+	display: flex;
+	align-items: center;
+	justify-content: "center";
+	gap: 4rem;
+
+	
+
+	text-align: justify;
+}
+
+div.main-container img.perfil-img {
+	width: 14rem;
+	height: 14rem;
+
+	border-radius: 10px;
+	box-shadow: 0 2px 2px gray;
+}
+
+div.main-container p {
+	padding-block: 0.2rem;
+}
+
+div.info-div {
+	text-align: justify;
+	max-width: 40rem;
+}
+
+.misc-links-list
+{
+	padding-inline: 1rem ;
+}
+
+@media only screen and (max-width: 600px) {
+	section.info-container {
+		flex-direction: column-reverse;
+	}
+}
