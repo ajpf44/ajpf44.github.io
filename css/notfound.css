@@ -1,0 +1,45 @@
+:root
+{
+    --color: #0077b5;
+    --color2: #0076b55e;
+}
+
+div.page-container
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.notfound-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.8rem;
+    padding-inline: 1.2rem;
+}
+
+section.notfound-container h3
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.notfound-container span
+{
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: var(--color2);
+    padding: 0.1rem 0.3rem;
+    border-radius: 15px 4px 15px 3px;
+    text-emphasis: 10rem;
+}
+
+main img
+{
+    width: 18rem;
+    height: 16rem;
+}
