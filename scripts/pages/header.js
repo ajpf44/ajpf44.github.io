@@ -7,7 +7,7 @@ const headerHTML = `<div class="header-container">
                                 Home
                             </li>
                         </a>
-                        <a href="./pages/about.html">
+                        <a href="/pages/about.html">
                             <li class="about-tab">
                                 Sobre
                             </li>
