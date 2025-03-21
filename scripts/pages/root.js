@@ -3,6 +3,8 @@ import { renderFooter } from "/scripts/components/footer.js";
 import { renderProject } from "/scripts/components/projects.js";
 import { changeCoffeeTo, coffeesASCIIArray } from "/scripts/components/coffee.js";
 import projects from "/data/projects.js";
+import { text as WebsiteText } from "/data/blogs/blogs.js";
+import { textToHTML } from "/scripts/utils/parderTextHTML.js";
 
 const actualPath = window.location.pathname;
 renderComponentsDynamically();
@@ -29,4 +31,11 @@ function renderComponentsDynamically()
             changeCoffeeTo(coffeesASCIIArray, 0, pre);
         })
 	}
+
+    if(actualPath == "/pages/blog.html" || actualPath == "/blog.html")
+    {
+        const blogListElem = document.getElementsByClassName("blog-list")[0]
+        blogListElem.innerHTML = textToHTML(WebsiteText);
+    }
+
 }

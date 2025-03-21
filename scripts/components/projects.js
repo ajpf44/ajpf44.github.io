@@ -25,25 +25,28 @@ function renderProject( p, parentElement )
     let pageAnchorHTML = "";
 
     if ( p.pageLink !=null  && p.pageLink.length >  3)
-        pageAnchorHTML = `<a class="default" href="${p.pageLink}" target="_blank">Página</a> - `
+        pageAnchorHTML = `<a class="default" href="${p.pageLink}" target="_blank">Página</a> `
 
     const projectHTML = `<li>
+                            
                             <img src="${p.imgPath}" alt="imagem do projeto ${p.name}">
-
+                            
                             <div class="project-info">
                                 <div>
-                                    <h4>${p.name}</h4>
+                                    <h4>
+                                        ${p.name}
+                                    </h4>
                                     <p class="techs">
                                         ${arrayToPortuguese(p.techs)}
                                     </p>
                                 </div>
                                 
                                 <p>
-                                    <span class="resume-span">Resumo: </span>${p.description}
+                                    [<a href="${p.repoLink}" class="default" target="_blank">${p.name}</a>]
+                                    ${p.description}
                                 </p>
                                 <div> 
                                     ${pageAnchorHTML}
-                                    <a class="default" href="${p.repoLink}" target="_blank">Repositório</a> 
                                 </div>
                             </div>
                         </li>`;

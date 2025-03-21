@@ -29,6 +29,7 @@ function handleActiveTab(path) {
 	let activeTabClass;
 	if (path == "/" || path == "/index.html") activeTabClass = tabsClass.home;
 	else if (path == "/pages/about.html") activeTabClass = tabsClass.about;
+    else return;
 
 	const activeTabElement = document.getElementsByClassName(activeTabClass)[0];
 

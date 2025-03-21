@@ -1,0 +1,28 @@
+section
+{
+    max-width: 1080px;
+    margin: auto;
+
+    padding: 2rem 1.2rem;
+    text-align: justify;
+
+    color: #333;
+    background-color: #f0f0f0;
+    border: 2px solid gray;
+    outline: 2px solid darkred;
+}
+
+main
+{
+    background-color: antiquewhite;
+    padding: 2rem 0 ;
+}
+
+@media only screen and (max-width: 600px)
+{
+    main
+    {
+        padding: 0;
+    }
+}
+
