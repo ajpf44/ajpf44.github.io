@@ -1,5 +1,5 @@
 const footerHTML = `
-        <p>Esse site [<a class="default" href="" target="_blank">repositorio</a>] foi feito em Vanilla JS</p>        
+        <p>Esse site [<a class="default" href="https://github.com/ajpf44/ajpf44.github.io/" target="_blank">repositorio</a>] foi feito em Vanilla JS</p>        
         <span>© 2025 Alexandre Ferreira</span>
 `;
 

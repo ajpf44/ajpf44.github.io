@@ -9,7 +9,7 @@ const projects = [
 	},
 	{
 		"name": "Segue de Volta?",
-		"description": "Página Web que mostra quem não te segue de volta no github",
+		"description": "Página Web que mostra quem não segue um perfil de volta no github. Ela acessa e cruza os dados abertos do github, e mostra os perfis correspodentes. Porém, os dados nem sempre estão atualizados",
 		"techs": ["JavaScript", "HTML", "CSS"],
 		"imgPath": "/assets/segue-de-volta.webp",
 		"repoLink": "https://ajpf44.github.io/seguedevolta/",
@@ -18,9 +18,9 @@ const projects = [
 	},
 	{
 		"name": "Pomodoro CLI",
-		"description": "Utilitário de linha de comando(CLI) de timer pomodoro ",
+		"description": "Utilitário de linha de comando(CLI) de timer pomodoro. É um aplicativo para gerenciar o tempo, ele aceita parametros como o -t {minutos}, para determinar o timer. Ele utiliza comandos nativos do GNU para tocar um alarme após o tempo estabelecido.",
 		"techs": ["Linux", "Rust"],
-		"imgPath": "/assets/gif-pomo.gif",
+		"imgPath": "/assets/gif-pomo.webp",
 		"repoLink": "https://github.com/ajpf44/pomodor-rust",
 		"pageLink": ""
 	},

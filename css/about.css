@@ -29,11 +29,7 @@ div.main-container {
 section.info-container {
 	display: flex;
 	align-items: center;
-	justify-content: "center";
 	gap: 4rem;
-
-	
-
 	text-align: justify;
 }
 
