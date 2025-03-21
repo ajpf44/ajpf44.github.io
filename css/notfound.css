@@ -1,7 +1,9 @@
 :root
 {
-    --color: #0077b5;
-    --color2: #0076b55e;
+    /* --color: #0077b5; */
+    /* --color2: #0076b55e; */
+    --color: darkolivegreen;
+    --color2: rgba(128, 128, 0, 0.504);
 }
 
 div.page-container

@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root, *
 {
 
     --max-width: 1080px;
-    --color: #0077b5;
-    --color-bright: #00b6ff;
+    /* --color: #0077b5;
+    --color-bright: #00b6ff; */
+    --color: #0088CC;
+    --color-bright: olive;
+    --color-gray-footer: #f2f2f2;
 
     padding: 0;
     margin: 0;
@@ -11,9 +16,10 @@
     text-decoration: none;
     color: black;
 
-    font-size: 1rem;
+    
     font-weight: normal;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */
+    font-family: "JetBrains Mono", monospace;    
 }
 
 body
@@ -29,11 +35,13 @@ a.default
 {
     text-decoration: underline;
     color: var(--color);
+    margin-inline: 0.2rem;
 }
 a.default:hover
 {
     color: var(--color-bright)
 }
+
 a:active
 {
     color: #0076b5a5;
@@ -64,6 +72,49 @@ i
 ul
 {
     list-style-type: square;
+}
+
+button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+    transition: all 0.1s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f4f4f4;
+    scale: 1.02;
+}
+
+/* Dark Mode Button */
+button.dark {
+    background-color: black;
+    color: white;
+}
+
+button.dark:hover {
+    background-color: #333;
+}
+
+
+
+/* Disabled Button */
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
 }
 
 /* HEADER CSS */
@@ -111,7 +162,7 @@ header li.active-tab
 /* FOOTER CSS */
 footer
 {
-    background-color: #f2f2f2;
+    background-color: var(--color-gray-footer);
     padding: 1rem;
     display: flex;
     flex-direction: column;
