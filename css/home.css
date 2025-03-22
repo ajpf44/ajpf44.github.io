@@ -11,14 +11,6 @@ div.main-container
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
-    max-width: var(--max-width);
-    min-height: 60vh;
-    
-    padding-block: 5rem;
-    padding-inline: 1.2rem;
-
-    margin: auto;
 }
 
 div.img-greetings-container

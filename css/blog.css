@@ -7,14 +7,13 @@ section
     text-align: justify;
 
     color: #333;
-    background-color: #f0f0f0;
+    background-color: #FAFAFA;
     outline: 2px solid gray;
     border: 2px solid darkred;
 }
 
 main
 {
-    
     padding: 2rem 0 ;
 }
 

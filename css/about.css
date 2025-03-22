@@ -7,12 +7,7 @@
 div.main-container {
 	max-width: var(--max-width);
 	
-	/*distance from header  */
-	padding-block: 4rem; 
 
-	/* distance from sides on mobile devices */
-	padding-inline: 1.2rem;
-	margin: auto;
 }
 section.info-container {
 	display: flex;
@@ -42,10 +37,6 @@ div.info-div {
 	padding-inline: 1rem ;
 }
 
-footer
-{
-	margin-top: 2.8rem;
-}
 
 @media only screen and (max-width: 600px) {
 	section.info-container {
