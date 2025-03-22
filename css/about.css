@@ -4,27 +4,15 @@
 	--color-bright: #00b6ff;
 }
 
-div.page-container
-{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 div.main-container {
 	max-width: var(--max-width);
 	
-	padding-block: 4rem;
-	padding-bottom: 20vh;
+	/*distance from header  */
+	padding-block: 4rem; 
+
+	/* distance from sides on mobile devices */
 	padding-inline: 1.2rem;
-
 	margin: auto;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 2rem;
 }
 section.info-container {
 	display: flex;
@@ -41,18 +29,22 @@ div.main-container img.perfil-img {
 	box-shadow: 0 2px 2px gray;
 }
 
-div.main-container p {
-	padding-block: 0.2rem;
-}
-
 div.info-div {
 	text-align: justify;
 	max-width: 40rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
 .misc-links-list
 {
 	padding-inline: 1rem ;
+}
+
+footer
+{
+	margin-top: 2.8rem;
 }
 
 @media only screen and (max-width: 600px) {

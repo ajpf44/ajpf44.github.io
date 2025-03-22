@@ -21,16 +21,6 @@ div.main-container
     margin: auto;
 }
 
-div.main-container ul
-{
-    list-style-type: "» ";
-    padding-left: 1.2rem;
-    padding-top: 1rem;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
 div.img-greetings-container
 {
     display: flex;

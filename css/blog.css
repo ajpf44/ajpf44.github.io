@@ -8,13 +8,13 @@ section
 
     color: #333;
     background-color: #f0f0f0;
-    border: 2px solid gray;
-    outline: 2px solid darkred;
+    outline: 2px solid gray;
+    border: 2px solid darkred;
 }
 
 main
 {
-    background-color: antiquewhite;
+    
     padding: 2rem 0 ;
 }
 

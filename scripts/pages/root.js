@@ -18,6 +18,10 @@ function renderComponentsDynamically()
 	const footerElement = document.getElementsByTagName("footer")[0];
 	renderFooter(footerElement);
 
+    //add favicon
+    const faviconLinkTag = `<link rel="shortcut icon" href="/assets/atom-favicon.svg" type="image/x-icon"></link>`
+    document.getElementsByTagName("head")[0].innerHTML += faviconLinkTag;
+
 	//render home components only if home is the tab actived
 	if (actualPath == "/" || actualPath == "/index.html") 
     {
