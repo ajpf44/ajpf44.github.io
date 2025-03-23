@@ -18,7 +18,7 @@ const projects = [
 	},
 	{
 		"name": "Pomodoro CLI",
-		"description": "é um utilitário de linha de comando(CLI) de timer pomodoro. É um aplicativo para gerenciar o tempo, ele aceita parametros como o -t {minutos}, para determinar o timer. Ele utiliza comandos nativos do GNU para tocar um alarme após o tempo estabelecido.",
+		"description": "é um utilitário de linha de comando (CLI) de timer pomodoro. É um aplicativo para gerenciar o tempo, ele aceita parametros como o -t {minutos}, para determinar o timer. Ele utiliza comandos nativos do GNU para tocar um alarme após o tempo estabelecido.",
 		"techs": ["Linux", "Rust"],
 		"imgPath": "/assets/gif-pomo.webp",
 		"repoLink": "https://github.com/ajpf44/pomodor-rust",
