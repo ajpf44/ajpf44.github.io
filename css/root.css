@@ -18,6 +18,11 @@
     /* font-family: "Open Sans", Helvetica, Arial, sans-serif; */
     font-family: "JetBrains Mono", monospace;   
     line-height: 1.6; 
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body
