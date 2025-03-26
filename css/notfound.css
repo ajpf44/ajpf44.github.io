@@ -30,17 +30,17 @@ section.notfound-container h3
     text-align: center;
 }
 
-.notfound-container span
+.notfound-container h2
 {
     font-size: 1.7rem;
     font-weight: bold;
-    background-color: var(--color2);
+    background-color: rgba(139, 0, 0, 0.277);
     padding: 0.1rem 0.3rem;
     border-radius: 15px 4px 15px 3px;
     text-emphasis: 10rem;
 }
 
-main img
+img
 {
     width: 18rem;
     height: 16rem;
