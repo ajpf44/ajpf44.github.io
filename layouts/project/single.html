@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  <p class="secondary-text">
+    {{ .Summary }}
+  </p>
+
+
+    <ul>
+        {{ with .Params.linkpage }}
+        <li>Página: <a href="{{ . }}">{{ . }}</a></li>
+        {{ else }}
+        {{ end }}
+
+        {{ with .Params.linkrepo }}
+        <li>Repositório: <a href="{{ . }}">{{ . }}</a></li>
+        {{ else }}
+        {{ end }}
+     </ul>
+
+  <section class = "blog_content">
+      {{ .Content }}
+  </section>
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ end }}

@@ -1,0 +1,21 @@
+<div class="minorproject_entry">
+    <span class="minor.project.title">
+        {{if .Params.blog}}
+        <a href="{{ .RelPermalink }}">
+            {{ .LinkTitle }}
+        </a>
+        {{else}}
+        {{ .LinkTitle }}
+        {{end}}
+    </span>
+    <span>-</span>
+    <span>
+        {{ .Summary }}
+        {{ if .Params.linkpage}}
+        <a target="_blank" href="{{ .Params.linkpage }}"> [page]</a>
+        {{end}}
+        {{ if .Params.linkrepo}}
+        <a target="_blank" href=" {{ .Params.linkrepo}}">[repo]</a>
+        {{end}}
+    </span>
+</div>

@@ -1,0 +1,15 @@
+<div class="post_entry">
+    <h4 class="post_title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </h4>
+    {{ $dateFormat := "2 Jan 2006"}}
+        {{ with .Site.Params.listDateFormat }}
+        {{ $dateFormat = .}}
+    {{ end }}
+
+    {{ .Date | time.Format $dateFormat }}
+
+    <div>
+        {{ .Summary }}
+    </div>
+</div>

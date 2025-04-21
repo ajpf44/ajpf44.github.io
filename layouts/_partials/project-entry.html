@@ -1,0 +1,25 @@
+<div class="project_entry">
+    <h4 class="post_title">
+        {{if .Params.blog}}
+        <a href="{{ .RelPermalink }}">
+            {{ .LinkTitle }}
+        </a>
+        {{else}}
+        {{ .LinkTitle }}
+        {{end}}
+    </h4>
+
+    {{ if .Params.linkpage}}
+    <a target= "_blank" href="{{ .Params.linkpage }}">[page]</a>
+    {{end}}
+    {{ if .Params.linkrepo}}
+    <a target= "_blank" href=" {{ .Params.linkrepo}}">[repo]</a>
+    {{end}}
+
+    <div class="img_container">
+        <img src="/imgs/{{ .Params.img}}" alt="img of {{ .Params.title}} project">
+    </div>
+    <p class="">
+        {{ .Summary }}
+    </p>
+</div>

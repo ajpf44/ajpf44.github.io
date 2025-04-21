@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  <span class="secondary-text">
+            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format "02 Jan 2006" }}
+
+      <time  class="small" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+      {{ if .Param "readTime" }}
+      &nbsp; · &nbsp;
+      {{ .ReadingTime }} min read
+      {{end }}
+
+      <div>
+        {{ .Summary }}
+      </div>
+  </span>
+
+  <section class = "blog_content">
+      {{ .Content }}
+  </section>
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+{{ end }}

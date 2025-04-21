@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<ul class="blog_post_container">
+    {{ range .Pages }}
+        {{partial "blog-entry.html" . }} 
+    {{ end }}
+</ul>
+
+{{ end }}
+

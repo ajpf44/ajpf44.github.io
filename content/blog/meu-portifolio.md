@@ -1,0 +1,32 @@
++++
+date = '2025-03-18T16:25:38-03:00'
+draft = false
+title = 'Meu portifólio'
+summary = "Contrução do meu antigo portifólio feito em Vanilla.js"
+readTime= true
+tags = ["frontend", "javascript", "react"]
++++
+
+Na semana passada, refiz meu site de portfólio. O que começou como uma atividade pedagógica para relembrar React acabou se tornando um grande aprendizado. No entanto, a versão final online não está em React, mas sim em Vanilla JS.
+
+Fiz cerca de 95% do projeto em React, utilizando a versão mais recente (v19). Consultei a documentação, implementei hooks, usei a biblioteca Chakra UI (escolhi simplesmente pelo nome) e revisei os conceitos. Sinto que cumpri meu objetivo de relembrar React e me sinto confiante para projetos que estou embarcando que necessitam da tecnologia. Mas para esse site específico, React parecia um exagero, como dizem os antigos "eu estava usando uma bazuca para matar uma formiga".
+
+Frameworks de frontend são úteis para garantir uniformidade, reutilização de componentes e escalabilidade, especialmente em equipes. No meu caso, o plano era criar apenas duas páginas, senti que React me atrapalhou mais do que ajudou. Muitas vezes, escrevia 100 linhas de código para algo que resultaria em menos de 1% do valor final do site. Preferi simplificar.
+
+Isso não significa que não senti falta de algumas facilidades do React. Os ícones, por exemplo, são facilmente importados em uma linha de código. Para contornar isso, usei Font Awesome diretamente no HTML. A renderização dinâmica de componentes também fez falta, pois repetir header e footer manualmente é incômodo. Resolvi isso com um script de renderização dinâmica para esses elementos e para a seção de projetos.
+
+Outro ponto importante foi o design. Não tenho grande habilidade com design, e meus sites costumam ficar feios e sobrecarregados de informações. Para evitar isso e garantir responsividade, segui algumas diretrizes: 
+
+1. Poucos elementos na tela
+2. Paleta de cores reduzida
+3. Layout pensado primeiro para mobile (Mobile First)
+
+Gosto de interfaces simples e limpas, sem muitos efeitos visuais, e tentei seguir essa filosofia. Para atrair recrutadores, busquei um design moderno, mas sem perder a simplicidade.
+
+Por fim, registrei um domínio pela primeira vez, algo que achava mais complexo do que realmente é, a parte mais difícil do processo foi optar por ".com.br" em vez de ".dev.br", mas acho que no futuro vai me ajudar caso eu decida generalizar o site. O registro do domínio foi feito pelo registro.br e a hospedagem foi feita gratuitamente no GitHub Pages. A configuração é simples e pode ser encontrada aqui [[link]](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
+Foi uma experiência muito boa. Sei que meu site não está perfeito e pode melhorar bastante, mas estou satisfeito com o resultado. Meus próximos passos são adicionar um Road Map de projetos futuros e uma aba para blogs.
+
+## Links 
+- site: [ajpf44.com.br](https://ajpf44.com.br/)
+- repositório: [github](https://github.com/ajpf44/ajpf44.github.io/)

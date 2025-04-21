@@ -1,0 +1,15 @@
+<li>
+    <span id="blog_post_title" class = "blog_post_title">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </span>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format "02 Jan 2006" }}
+    <div>
+        <time class= "small secondary-text" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        <label for="blog_post_title" class= "small">
+            · 
+            {{ .Summary }}
+        </label>
+    </div>
+</li>
+
