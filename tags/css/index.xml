@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on ajpf44</title>
+    <link>https://example.org/tags/css/</link>
+    <description>Recent content in Css on ajpf44</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculadora JS</title>
+      <link>https://example.org/projects/minor/calculadora-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/minor/calculadora-js/</guid>
+      <description>calculadora simples e altamente bugada, feita em javascript.</description>
+    </item>
+    <item>
+      <title>Segue de Volta?</title>
+      <link>https://example.org/projects/segue-de-volta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/segue-de-volta/</guid>
+      <description>Página Web que mostra quem não segue um perfil de volta no github. Ela acessa e cruza os dados abertos do github, e mostra os perfis correspodentes.</description>
+    </item>
+  </channel>
+</rss>

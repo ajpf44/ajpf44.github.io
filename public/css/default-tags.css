@@ -1,0 +1,46 @@
+a {
+	/* color: darkred; */
+	color: var(--content-emphasis);
+	text-decoration: underline;
+}
+
+p {
+  font-size: var(--p-font-size);
+  line-height: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+	font-size: var(--h1-font-size);
+	font-weight: bold;
+}
+
+h2 {
+	font-size: var(--h2-font-size);
+	font-weight: bold;
+}
+
+h3 {
+	font-size: var(--h3-font-size);
+	font-weight: bold;
+}
+
+h4 {
+	font-size: var(--hx-font-size);
+	font-weight: bold;
+}
+h5 {
+	font-size: var(--hx-font-size);
+	font-weight: bold;
+}
+
+i {
+	color: inherit;
+}
+
+ul{
+  list-style-type: "» ";
+  margin-left: 0.8rem;
+}
+

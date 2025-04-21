@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on ajpf44</title>
+    <link>https://example.org/projects/</link>
+    <description>Recent content in Projects on ajpf44</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculadora JS</title>
+      <link>https://example.org/projects/minor/calculadora-js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/minor/calculadora-js/</guid>
+      <description>calculadora simples e altamente bugada, feita em javascript.</description>
+    </item>
+    <item>
+      <title>Discord Bot</title>
+      <link>https://example.org/projects/minor/discord-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/minor/discord-bot/</guid>
+      <description>você pode adicionar ele ao seu servidor, ele faz escolhas e mostra cotações de moedas</description>
+    </item>
+    <item>
+      <title>Games in C</title>
+      <link>https://example.org/projects/minor/games-in-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/minor/games-in-c/</guid>
+      <description>um conjunto de jogos clássicos feito em c, com interface em GTK4</description>
+    </item>
+    <item>
+      <title>Influence Connect</title>
+      <link>https://example.org/projects/influence-connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/influence-connect/</guid>
+      <description>Uma aplicação web que conecta empresa e influenciadores. Responsiva e acessível, otimizando a criação e o gerenciamento das campanhas publicitárias.</description>
+    </item>
+    <item>
+      <title>Segue de Volta?</title>
+      <link>https://example.org/projects/segue-de-volta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/segue-de-volta/</guid>
+      <description>Página Web que mostra quem não segue um perfil de volta no github. Ela acessa e cruza os dados abertos do github, e mostra os perfis correspodentes.</description>
+    </item>
+    <item>
+      <title>Snake Game</title>
+      <link>https://example.org/projects/minor/snake-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/minor/snake-game/</guid>
+      <description>o famoso jogo da cobrinha, feito em java.</description>
+    </item>
+    <item>
+      <title>Web Crawler</title>
+      <link>https://example.org/projects/minor/web-crawler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/minor/web-crawler/</guid>
+      <description>um buscador de url&amp;rsquo;s dentro do html de um domínio.</description>
+    </item>
+  </channel>
+</rss>

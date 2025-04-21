@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap-1{
+    gap: 1rem
+}
+
+.gap-05{
+    gap: 0.5rem;
+}
